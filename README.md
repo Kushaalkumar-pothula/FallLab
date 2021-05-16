@@ -28,7 +28,7 @@ Where:
 - ```t```: The time for which the simulation is to be run, in seconds. Required.
 - ```h```: Height of the body above the surface, in meters. Required.
 - ```m```: Mass of the smaller body, in kilograms. Required.
-- ```-g``` or ```-acceleration```: Acceleration due to gravity in m/s^2. Optional, default value is 9.81 m/s^2.
+- ```-g``` or ```--acceleration```: Acceleration due to gravity in m/s^2. Optional, default value is 9.81 m/s^2.
 
 The parameters can be displayed by using ```-h``` or ```--help```:
 ```bash
