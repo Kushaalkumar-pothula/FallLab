@@ -5,7 +5,6 @@ from energy import kinetic_energy
 from energy import ke_by_pe
 
 import argparse
-import datetime
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -77,3 +76,4 @@ ax4.set_ylabel("KE/PE", color = "r")
 ax4.tick_params(axis='y', labelcolor='r')
 ax4.legend(loc='upper center', frameon=False, ncol = 2)
 plt.tight_layout()
+plt.show()
